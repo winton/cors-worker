@@ -1,6 +1,6 @@
 {
   "name": "@fn2/cors-worker",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CORS for workers 🔨",
   "main": "dist/cjs/index.js",
   "scripts": {
