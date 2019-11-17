@@ -8,9 +8,7 @@ export class CorsWorker {
 
   addCors(res: Response): Response {
     const response = new Response(res.body, res)
-
     response.headers.set("Access-Control-Allow-Origin", "*")
-
     return response
   }
 
