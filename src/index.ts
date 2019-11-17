@@ -10,7 +10,6 @@ export class CorsWorker {
     const response = new Response(res.body, res)
 
     response.headers.set("Access-Control-Allow-Origin", "*")
-    response.headers.append("Vary", "Accept-Encoding")
 
     return response
   }
